@@ -78,9 +78,7 @@ public class LoginActivity extends AppCompatActivity {
         switch (requestCode)
         {
             case 1:
-                onPause();
-                onStop();
-                onDestroy();
+                finish();
                 break;
         }
     }
