@@ -54,7 +54,7 @@ public class CourseMessageAnalysis {
             //存放一门课程的html
             String singleCourse=mfindCourse.group();
             singleCourse=singleCourse.substring(4, singleCourse.length()-8);
-            //System.out.printf("\n\n第%d个课程的html信息：         %s\n（删去头尾）\n",numOfCourse-1,singleCourse);
+            System.out.printf("\n\n第%d个课程的html信息：         %s\n（删去头尾）\n",numOfCourse-1,singleCourse);
 
             //找出singleCourse里的每一项信息
             Pattern pfindCourseBody=Pattern.compile("<td.*?</td>");
